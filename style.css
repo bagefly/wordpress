@@ -1,0 +1,156 @@
+/*
+Theme Name: SkyWide
+Theme URI: C:/wamp/www/wp-content/themes/ucai
+Author: Evans
+Author URI: http://8gold.me/
+Description: The SkyWide theme for WordPress takes us back to the blog.
+Version: 1.0
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: skywide
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.nav_menu {
+    width: 1140px;
+    height: 70px;
+    background: #FFffff;
+    opacity: 0.618;
+    border: 1px dashed #999999;
+    border-top: none;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 113px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo span {
+    border: 1px dashed #E3AE57;
+    color: #000000;
+    text-align: center;
+    text-shadow: 1px 1px #FFffff;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "微软雅黑", Arial;
+    line-height: 50px;
+    padding: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.nav_menu #Menu {
+    height: 70px;
+    position: absolute;
+    top: 10px;
+    left: 600px;
+}
+.nav_menu #Menu ul{
+    padding: 0;
+    list-style: none;
+}
+.nav_menu #Menu li{
+    float: left;
+    display: block;
+    margin-right: 8px;
+}
+.nav_menu #Menu a {
+    width: 64px;
+    color: #645f5f;
+    font: 16px/50px "微软雅黑";
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.nav_menu #Menu a:hover {
+    color: #E2782F;
+    background:#f1e2d7;
+    border-radius: 5px;
+
+}
+.nav_menu #Menu #menu-item-31 li a:active{
+    color: #E2782F;
+}
+.nav {
+    width: 1348px;
+    height: 640px;
+    position: relative;
+}
+
+.nav .nav_left {
+    width: 672px;
+    height: 100%;
+    background: url("./images/home-img.jpg") no-repeat;
+    background-position: 40% 0;
+}
+
+.nav_right {
+    width: 676px;
+    height: 640px;
+    background: #f1e2d7;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.nav_right p {
+    color: #999999;
+    margin-left: 50px;
+    font: 16px/20px "微软雅黑";
+}
+
+.nav_right .welcome {
+    margin-top: 123px;
+}
+
+.nav_right .myname {
+    color: #333333;
+    font-size: 36px;
+    line-height: 72px;
+}
+
+.nav_right .circle{
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+
+.nav_right .disc{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #e7b293;
+    opacity: 0.5;
+    float: left;
+    margin-right: 20px;
+    animation: move 1s linear infinite alternate;
+}
+.nav_right .disc1{
+    animation-delay: 0.1s;
+}
+.nav_right .disc2{
+    animation-delay: 0.2s;
+}
+.nav_right .disc3{
+    animation-delay: 0.3s;
+}
+.nav_right .disc4{
+    animation-delay: 0.4s;
+}
+.nav_right .disc5{
+    animation-delay: 0.5s;
+}
+@keyframes move{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
