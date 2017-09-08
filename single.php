@@ -4,6 +4,11 @@
 	<?php if(have_posts()) : the_post(); ?>
 	<div class="the_post">
 		<div class="title"><a href="<?php the_permalink(); ?>"><?php the_title() ?></a></div>
+		<div class="author date">
+			<a href="<?php the_author_posts(); ?>"><?php the_author(); ?></a>
+			
+			<?php the_time(' / Y-m-d'); ?>
+		</div>
 		<div class="content"><?php the_content() ?></div>
 	</div>
 	
@@ -20,18 +25,6 @@
 			<span>联系我</span>
 		</div>
 	</div>	 -->
-	<div class="nav clear-float" >
-		<div class="nav_left">
-		</div>
-		<div class="nav_right">
 
-		</div>
-	</div>
-	<div class="banner">
-		
-	</div>
-	<div class="content">
-
-	</div>
 	<?php get_footer(); ?>
 	

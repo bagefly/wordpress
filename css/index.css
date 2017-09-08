@@ -1,0 +1,45 @@
+/* content  文章 */
+.content{
+    width: 1348px;
+    height: 640px;
+    position: relative;
+}
+.content .article{
+    width: 664px;
+    height: 640px;
+    border-left: 6px solid #aeaeae;
+    border-right: 2px double #aeaeae;
+}
+.content .post{
+    border-left: 3px solid #E3AE57;
+    margin: 30px 45px;
+    padding: 15px;
+    padding-top: 0; 
+}
+.content .post a{
+    text-decoration: none;
+}
+.content .post .the_title a{
+    color: #E3AE57;
+    font: bold 20px/24px "黑体",Arial; 
+}
+.content .post .author a , .content .post .time{
+    color: #999999;
+    font: 12px/24px "微软雅黑",Arial;
+}
+.content .post .excerpt{
+    color: #5D5D5D;
+    font: 14px/28px "宋体",Arial;
+}
+.content p{
+    margin-left: 45px;
+}
+.content .content-img{
+    width: 676px;
+    height: 640px;
+    background: url("../images/content-img.jpg") no-repeat;
+    background-position: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
